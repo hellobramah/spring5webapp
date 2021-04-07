@@ -23,6 +23,6 @@ public class BookController {
         model.addAttribute("books", bookRepository.findAll());
 
         //return to view
-        return "books";
+        return "books/list";
     }
 }
